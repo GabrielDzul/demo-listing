@@ -1,0 +1,9 @@
+h1 = @article.title
+
+p = @article.body
+
+ul
+  li = @article.created_at
+  li = @article.updated_at
+
+= link_to "todos los artículos", articles_path
